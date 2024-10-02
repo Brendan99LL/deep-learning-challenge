@@ -19,3 +19,20 @@
   <li>IS_SUCCESSFUL—Was the money used effectively</li>
 </ul>
 </p>
+
+**Instructions**
+<p>**Step 1: Preprocess the Data**</p>
+<p>Using your knowledge of Pandas and scikit-learn’s StandardScaler(), you’ll need to preprocess the dataset. This step prepares you for Step 2, where you'll compile, train, and evaluate the neural network model.</p>
+<p>Start by uploading the starter file to Google Colab, then using the information we provided in the Challenge files, follow the instructions to complete the preprocessing steps.</p>
+<ol>
+  <li>Read in the charity_data.csv to a Pandas DataFrame, and be sure to identify the following in your dataset:</li>
+  <ul>
+    <li>What variable(s) are the target(s) for your model?</li>
+    <li>What variable(s) are the feature(s) for your model?
+</li>
+  </ul>
+  
+
+
+  
+</ol>
