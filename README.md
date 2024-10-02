@@ -54,3 +54,29 @@ _**Step 2: Compile, Train, and Evaluate the Model**_
   <li>Evaluate the model using the test data to determine the loss and accuracy.</li>
   <li>Save and export your results to an HDF5 file. Name the file AlphabetSoupCharity.h5.</li>
 </ol>
+
+_**Step 3: Optimize the Model**_
+<p>Using your knowledge of TensorFlow, optimize your model to achieve a target predictive accuracy higher than 75%.</p>
+<p>Use any or all of the following methods to optimize your model:</p>
+<ul>
+  <li>Adjust the input data to ensure that no variables or outliers are causing confusion in the model, such as:</li>
+  <ul>
+    <li>Dropping more or fewer columns.</li>
+    <li>Creating more bins for rare occurrences in columns.</li>
+    <li>Increasing or decreasing the number of values for each bin.</li>
+    <li>Add more neurons to a hidden layer.</li>
+    <li>Add more hidden layers.</li>
+    <li>Use different activation functions for the hidden layers.</li>
+    <li>Add or reduce the number of epochs to the training regimen.</li>
+  </ul>
+</ul>
+<p>Note: If you make at least three attempts at optimizing your model, you will not lose points if your model does not achieve target performance.</p>
+<ol>
+  <li>Create a new Google Colab file and name it AlphabetSoupCharity_Optimization.ipynb.</li>
+  <li>Import your dependencies and read in the charity_data.csv to a Pandas DataFrame.</li>
+  <li>Preprocess the dataset as you did in Step 1. Be sure to adjust for any modifications that came out of optimizing the model.</li>
+  <li>Design a neural network model, and be sure to adjust for modifications that will optimize the model to achieve higher than 75% accuracy.</li>
+  <li>Save and export your results to an HDF5 file. Name the file AlphabetSoupCharity_Optimization.h5.</li>
+</ol>
+
+
