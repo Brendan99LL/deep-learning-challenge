@@ -21,6 +21,7 @@
 </p>
 
 **Instructions**
+
 _**Step 1: Preprocess the Data**_
 <p>Using your knowledge of Pandas and scikit-learn’s StandardScaler(), you’ll need to preprocess the dataset. This step prepares you for Step 2, where you'll compile, train, and evaluate the neural network model.</p>
 <p>Start by uploading the starter file to Google Colab, then using the information we provided in the Challenge files, follow the instructions to complete the preprocessing steps.</p>
