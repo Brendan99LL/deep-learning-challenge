@@ -2,7 +2,7 @@
 
 <h3>Optimization Attempts Summaries:</h3>
 <ol>
-  <li>Optimization Attempt # 1</li>
+  <li>**Optimization Attempt # 1**</li>
     <ul>
       <li>Activation Functions: Relu, Sigmoid, Relu, Sigmoid (output)</li>
       <li>Hidden Layer Units: 10, 9, 8, 1</li>
