@@ -80,10 +80,8 @@
     <ul>
       <li>What variable(s) are the target(s) for your model?</li>
       <p>The variable target of the model is the "IS_SUCCESSFUL" column originally from the application_df.</p>
-
       <li>What variable(s) are the features for your model?</li>
       <p>The features of the model are the columns within application_df, except for the "IS_SUCCESSFUL" column.</p>
-
       <li>What variable(s) should be removed from the input data because they are neither targets nor features?</li>
       <p>The "EIN" and "Name" variables were removed from application_df because they are neither targets nor features to be used in the model.</p>
     </ul>
