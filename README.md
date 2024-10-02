@@ -28,11 +28,13 @@
   <li>Read in the charity_data.csv to a Pandas DataFrame, and be sure to identify the following in your dataset:</li>
   <ul>
     <li>What variable(s) are the target(s) for your model?</li>
-    <li>What variable(s) are the feature(s) for your model?
-</li>
+    <li>What variable(s) are the feature(s) for your model?</li>
   </ul>
-  
-
-
-  
+  <li>Drop the EIN and NAME columns.</li>
+  <li>Determine the number of unique values for each column.</li>
+  <li>For columns that have more than 10 unique values, determine the number of data points for each unique value.</li>
+  <li>Use the number of data points for each unique value to pick a cutoff point to combine "rare" categorical variables together in a new value, Other, and then check if the replacement was successful.</li>
+  <li>Use pd.get_dummies() to encode categorical variables.</li>
+  <li>Split the preprocessed data into a features array, X, and a target array, y. Use these arrays and the train_test_split function to split the data into training and testing datasets.</li>
+  <li>Scale the training and testing features datasets by creating a StandardScaler instance, fitting it to the training data, then using the transform function.</li>
 </ol>
