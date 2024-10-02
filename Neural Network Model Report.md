@@ -73,3 +73,12 @@
       <li>Accuracy: 73.04%</li>
     </ul>  
 </ol>
+
+<h3>Results</h3>
+<ul>
+  <li>Data Processing</li>
+    <ul>
+      <li>What variable(s) are the target(s) for your model?</li>
+      <p>The variable target of the model is the "IS_SUCCESSFUL" column originally from the application_df.</p>
+    </ul>
+</ul>
