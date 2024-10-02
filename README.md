@@ -102,6 +102,12 @@ _**Step 4: Write a Report on the Neural Network Model**_
   <li>Summary: Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and then explain your recommendation.</li>
 </ol>
 
-
+_**Step 5: Copy Files Into Your Repository**_
+<p>Now that you're finished with your analysis in Google Colab, you need to get your files into your repository for final submission.</p>
+<ol>
+  <li>Download your Colab notebooks to your computer.</li>
+  <li>Move them into your Deep Learning Challenge directory in your local repository.</li>
+  <li>Push the added files to GitHub.</li>
+</ol>
 
 
